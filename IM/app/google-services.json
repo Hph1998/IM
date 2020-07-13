@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "384728709256",
+    "firebase_url": "https://imim-85672.firebaseio.com",
+    "project_id": "imim-85672",
+    "storage_bucket": "imim-85672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384728709256:android:24588b00374c958b94073d",
+        "android_client_info": {
+          "package_name": "com.example.im"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384728709256-76e789cp85dhick90v30puqio3rqu12h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.im",
+            "certificate_hash": "6bb46f931e9a2cf75eee026f2775f4bb47d82e87"
+          }
+        },
+        {
+          "client_id": "384728709256-rgvjd0uuc9ugt6spj1g1co8t95hp4afi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiF9BJyfOcJv8BET-UsXN5bTcdxZDttxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384728709256-rgvjd0uuc9ugt6spj1g1co8t95hp4afi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

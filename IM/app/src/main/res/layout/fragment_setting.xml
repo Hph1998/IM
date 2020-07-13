@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.hyphenate.easeui.widget.EaseTitleBar
+        app:titleBarTitle="设置"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.hyphenate.easeui.widget.EaseTitleBar>
+
+    <TextView
+        android:id="@+id/tx_hxid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="账户" />
+    <TextView
+        android:id="@+id/tx_nick"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="昵称" />
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/bt_person"
+            android:text="修改资料"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+    <Button
+        android:id="@+id/bt_setting_out"
+        android:text="退出"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+</LinearLayout>
